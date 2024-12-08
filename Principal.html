@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Personal - Sugey Mayerli Ramos Álvarez</title>
+    <link rel="stylesheet" href="Principal.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenidos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <img src="fotoperfil.jpg" width="250" height="300" alt="imagen">
+        </section>
+        <section id="Hola"><p>Hola, mi nombre es Sugey Mayerli Ramos Alvarez, estudiante de la carrera de Ingeniería en Sistemas de Información de la Universidad Técnica de Babahoyo, con una pasión por el diseño y la escritura creativa.</p></section>
+
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Soy una persona responsable y versátil, con habilidades en liderazgo y una capacidad destacada para comunicarme con precisión. Actualmente curso el tercer nivel de la carrera, lo que me ha proporcionado una base sólida en desarrollo de software y estructuras de datos. Paralelamente, la escritura de poesía es una de mis pasiones. A través de las palabras, expreso mis emociones y experiencias, creando imágenes vívidas que reflejan mis vivencias.</p>
+        </section>
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Habilidad</th>
+                        <th>Nivel</th>
+                        <th>Descripción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Experiencia en HTML</td>
+                        <td>Básico</td>
+                        <td>Conocimientos fundamentales en la creación de páginas web usando HTML.</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Básico</td>
+                        <td>Diseño y maquetación de sitios web responsivos.</td>
+                    </tr>
+                    <tr>
+                        <td>JavaScript</td>
+                        <td>Intermedio</td>
+                        <td>Implementación de funcionalidades dinámicas en sitios web.</td>
+                    </tr>
+                    <tr>
+                        <td>Desarrollo de escritura</td>
+                        <td>Intermedio</td>
+                        <td>Habilidad para crear contenido con claridad y expresión efectiva.</td>
+                    </tr>
+                    <tr>
+                        <td>Gestión de proyectos</td>
+                        <td>Avanzado</td>
+                        <td>Liderazgo y colaboración constante, activa y eficiente en proyectos grupales y otros.</td>
+                    </tr>
+                    <tr>
+                        <td>Gestión del Tiempo</td>
+                        <td>Intermedio</td>
+                        <td>Cumplimiento de tareas y objetivos a corto plazo de manera organizada y precisa.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="proyectos">
+            <h2>Galería de Proyectos</h2>
+        
+            <!-- Primer proyecto -->
+            <div class="proyecto">
+                <h3>Análisis Técnico sobre la Estructura HTML5 de Tres Páginas Web</h3>
+                <a href="Análisis Técnico sobre la Estructura HTML5 de Tres Páginas Web..pdf" target="_blank">
+                    <img src="analisisHTML.png" width="300" height="400" alt="Análisis Estructura HTML5">
+                </a>
+                <p>Este análisis examina la estructura HTML5 de tres páginas web, destacando el uso de etiquetas semánticas y prácticas de accesibilidad. Evalúa el uso de etiquetas como (header), (section), (figure), y atributos como aria-*, que mejoran la organización, accesibilidad y optimización para motores de búsqueda. También proporciona recomendaciones para mejorar la experiencia del usuario y el rendimiento de las páginas web.</p>
+            </div>
+        
+            <!-- Segundo proyecto -->
+            <div class="proyecto">
+                <h3>Sistema de Gestión de Estudiantes</h3>
+                <a href="Sistema de Gestión de Estudiantes.pdf" target="_blank">
+                    <img src="ejerpractico.png" width="500" height="300" alt="Sistema de Gestión Estudiantes">
+                </a>
+                <p>Este documento describe un ejercicio de implementación para un sistema de gestión de estudiantes en la Universidad Técnica de Babahoyo. Incluye enlaces para acceder al código en la plataforma Replit, donde se desarrolla el sistema. El objetivo es gestionar la información de estudiantes y mejorar la organización académica.</p>
+            </div>
+        
+            <!-- Tercer proyecto -->
+            <div class="proyecto">
+                <h3>Análisis: Introducción al Frontend y Backend</h3>
+                <a href="ANALISIS INTRODUCCIÓN AL FRONTEND Y BACKEND.pdf" target="_blank">
+                    <img src="intro.png" width="400" height="300" alt="Análisis Frontend y Backend">
+                </a>
+                <p>Este documento explica las diferencias entre frontend y backend en el desarrollo web. Describe las tecnologías de frontend (HTML, CSS, JavaScript) enfocadas en la experiencia del usuario, y las de backend (PHP, Python, Java, NodeJS) que procesan datos en el servidor. También menciona stacks como LAMP y MEAN y el perfil de desarrollador Full Stack, que domina ambas áreas. Incluye un análisis crítico sobre la elección de tecnologías según el proyecto y sugiere ejemplos prácticos para una mejor comprensión.</p>
+            </div>
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Sugey Mayerli Ramos Alvarez. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
